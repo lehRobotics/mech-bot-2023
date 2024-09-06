@@ -10,6 +10,7 @@ import frc.robot.commands.ExampleCommand;
 import frc.robot.commands.MechDrive;
 import frc.robot.subsystems.ExampleSubsystem;
 import frc.robot.subsystems.CameraControl;
+import frc.robot.subsystems.ControllerInputs;
 import frc.robot.commands.ControlCamera;
 import frc.robot.subsystems.DriveTrain;
 
@@ -33,6 +34,7 @@ public class RobotContainer {
   public static final CameraControl CAMERA_CONTROL = new CameraControl();
   //public static final Command ControlCamera = new ControlCamera();
 
+  public static final ControllerInputs INPUTS = new ControllerInputs();
   public static final Joystick CONTROLLER_JOYSTICK = new Joystick(0);
   public static final CommandXboxController XBOX_CONTROLLER = new CommandXboxController(OperatorConstants.kDriverControllerPort);
   

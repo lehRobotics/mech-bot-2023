@@ -84,7 +84,7 @@ public class Robot extends TimedRobot {
       m_autonomousCommand.cancel();
     }
 
-    //CameraServer.startAutomaticCapture(0);
+    
 
     RobotContainer.Mechdrive.schedule();
     //RobotContainer.ControlCamera.schedule();
