@@ -68,4 +68,10 @@ public class DriveTrain extends SubsystemBase {
            backLeftMotor.set(ControlMode.PercentOutput, 0);
         }
     }
+
+    public void FRMget() {
+        //Get the power output of the fr motor
+
+        //Repeat for all motors to get their current power
+    }
 }
