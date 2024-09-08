@@ -29,6 +29,7 @@ public class MechDrive extends CommandBase {
         double driverAxisY = RobotContainer.CONTROLLER_JOYSTICK.getRawAxis(1);
         double driverAxisZ = RobotContainer.CONTROLLER_JOYSTICK.getRawAxis(2);
 
+        //Might work  but ill have to test on thursday.
         if ((driverAxisY+driverAxisX+driverAxisZ) > FRMgoal) {
             System.out.print("Increase Speed Goal");
         } else {
